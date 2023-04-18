@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React, { useRef } from 'react'
+
 const Footer = () => {
    return (
       <footer className="bg-primary text-center text-white">
