@@ -7,7 +7,7 @@ import Header from '@/components/header/Header'
 import PersonalInfo from '@/components/personalInfo/PersonalInfo'
 import Footer from '@/components/footer/Footer'
 import CallToAction from '@/components/callToAction/CallToAction'
-import Carousel from '@/components/carousel/Carousel'
+import MyCarousel from '@/components/carousel/MyCarousel'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +23,7 @@ export default function Home() {
          <main className="vh-100 w-100">
             <Header></Header>
             <PersonalInfo></PersonalInfo>
-            <Carousel></Carousel>
+            <MyCarousel></MyCarousel>
             <CallToAction></CallToAction>
             <Footer></Footer>
          </main>
