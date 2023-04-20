@@ -3,15 +3,23 @@ import React, { useRef } from 'react'
 
 const Header = () => {
    return (
-      <div className="row h-auto w-110 bg-primary ">
-         <div className="col-6 text-white w-25">
-            <h1 className="m-2">Portfolio</h1>
+      <div className="row h-100 w-110 bg-primary justify-content-center align-content-center">
+         <div className="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 text-white d-flex justify-content-center align-items-center">
+            <h1 className="m-2 font-monospace">Portfolio</h1>
          </div>
-         <div className="col-6 d-flex w-75">
-            <button className="btn flex-fill btn-secondary m-1">Personal</button>
-            <button className="btn flex-fill btn-secondary m-1">Projects</button>
-            <button className="btn flex-fill btn-secondary m-1">Call to action</button>
-            <button className="btn flex-fill btn-secondary m-1">Footer</button>
+         <div className="col-12 col-sm-9 col-md-8 col-lg-9 col-xl-9 d-flex justify-content-center align-items-center">
+            <a className="btn flex-fill btn-secondary m-1 h-75 rounded-5 shadow border text-md" href="#personalInfo">
+               Personal
+            </a>
+            <a className="btn flex-fill btn-secondary m-1 h-75 rounded-5 shadow border" href="#carousel">
+               Projects
+            </a>
+            <a className="btn flex-fill btn-secondary m-1 h-75 rounded-5 shadow border" href="#callToAction">
+               Call To Action
+            </a>
+            <a className="btn flex-fill btn-secondary m-1 h-75 rounded-5 shadow border" href="#footer">
+               Footer
+            </a>
          </div>
       </div>
    )

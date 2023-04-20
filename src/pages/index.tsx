@@ -21,11 +21,11 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
          </Head>
          <main className="vh-100 w-100">
-            <Header></Header>
-            <PersonalInfo></PersonalInfo>
-            <MyCarousel></MyCarousel>
-            <CallToAction></CallToAction>
-            <Footer></Footer>
+            <section id='header' className='h-25'><Header></Header></section>
+            <section id="personalInfo" className='h-100'><PersonalInfo></PersonalInfo></section>
+            <section id="carousel"> <MyCarousel></MyCarousel> </section>
+            <section id="callToAction"><CallToAction></CallToAction></section>
+            <section id="footer"><Footer></Footer></section>
          </main>
       </>
    )
